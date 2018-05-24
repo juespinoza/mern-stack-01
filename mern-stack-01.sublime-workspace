@@ -1,0 +1,577 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"b",
+				"bootstrap"
+			],
+			[
+				"expo",
+				"export〔keyword〕"
+			],
+			[
+				"render",
+				"render"
+			],
+			[
+				"contr",
+				"constructor\t(ToDo.js)"
+			],
+			[
+				"handle",
+				"handleAddTodo"
+			],
+			[
+				"handl",
+				"handleSubmit"
+			],
+			[
+				"form-",
+				"form-control"
+			],
+			[
+				"ba",
+				"badge-pill\t(App.js)"
+			],
+			[
+				"t",
+				"todos"
+			],
+			[
+				"prop",
+				"propTypes\t(Header.js)"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"l",
+				"logo.svg"
+			],
+			[
+				"im",
+				"images/"
+			],
+			[
+				"my",
+				"my_notes"
+			],
+			[
+				"click",
+				"click)=\"addNote"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"d",
+				"dist"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"erro",
+				"error_nombre"
+			],
+			[
+				"error",
+				"error_email"
+			],
+			[
+				"forma",
+				"Formulario"
+			],
+			[
+				"mi",
+				"miformulario"
+			],
+			[
+				"form",
+				"formulario"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"show",
+				"showView"
+			],
+			[
+				"Contro",
+				"Controller"
+			],
+			[
+				"tablas",
+				"tablas_unefa"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"opera",
+				"operacion"
+			],
+			[
+				"Even",
+				"Evento"
+			],
+			[
+				"str",
+				"strong\tTag"
+			],
+			[
+				"boot",
+				"bootstrap-modal"
+			],
+			[
+				"boo",
+				"bootstrap-modal"
+			],
+			[
+				"Evento",
+				"EventosDato"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"ERROR",
+				"ERROR-DESCONEXION"
+			],
+			[
+				"dato",
+				"datos_1"
+			],
+			[
+				"ENVIO",
+				"ENVIO-CLAVE"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cedula",
+				"cedula_formulario"
+			],
+			[
+				"cla",
+				"clave_formulario"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"edit",
+				"edit_clave2"
+			],
+			[
+				"clave",
+				"clave_corta"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"tipo",
+				"tipo_estuido"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"prin",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"tere",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"toggle si",
+				"View: Toggle Side Bar"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 605.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/mis-proyectos/react/mern-stack-01"
+	],
+	"file_history":
+	[
+		"/var/www/html/mis-proyectos/react/express-react-01/package.json",
+		"/var/www/html/mis-proyectos/react/express-react/README.md",
+		"/var/www/html/mis-proyectos/react/react-01/public/index.html",
+		"/var/www/html/mis-proyectos/react/react-01/src/App.js",
+		"/var/www/html/mis-proyectos/react/react-01/src/App.css",
+		"/var/www/html/mis-proyectos/react/express-react/webpack.config.js",
+		"/var/www/html/mis-proyectos/nodejs/09-login-funcional/views/partials/head.ejs",
+		"/var/www/html/mis-proyectos/react/react-01/src/index.css",
+		"/var/www/html/mis-proyectos/react/react-01/src/index.js",
+		"/var/www/html/mis-proyectos/react/express-react/src/logo.svg",
+		"/var/www/html/mis-proyectos/react/react-01/src/todos.json",
+		"/var/www/html/mis-proyectos/react/react-01/src/components/TodoForm.js",
+		"/var/www/html/mis-proyectos/react/react-01/src/components/Navigation.js",
+		"/var/www/html/mis-proyectos/react/react-01/package.json",
+		"/var/www/html/mis-proyectos/nodejs/09-login-funcional/views/index.ejs",
+		"/var/www/html/mis-proyectos/react/express-react-01/src/components/App.jsx",
+		"/home/developer/.ssh/id_rsa.pub",
+		"/var/www/html/mis-proyectos/react/express-react/.babelrc",
+		"/var/www/html/mis-proyectos/react/express-react/nodemon.json",
+		"/var/www/html/mis-proyectos/react/react-01/node_modules/react-scripts/config/webpack.config.dev.js",
+		"/var/www/html/mis-proyectos/react/react-01/node_modules/webpack-dev-server/client/webpack.config.js",
+		"/var/www/html/mis-proyectos/react/react-01/node_modules/webpack/package.json",
+		"/var/www/html/mis-proyectos/react/express-react-01/public/css/styles.css",
+		"/var/www/html/mis-proyectos/react/express-react-01/public/index.html",
+		"/var/www/html/mis-proyectos/react/express-react/public/css/styles.css",
+		"/var/www/html/mis-proyectos/react/express-react/.gitignore",
+		"/home/developer/Dropbox/Trabajo/Manuales y Tips/Git/GIT-comandos-e-instalacion.txt",
+		"/home/developer/Dropbox/Trabajo/Manuales y Tips/GIT - comandos e instalacion.txt",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/.gitignore",
+		"/var/www/html/mis-proyectos/react/express-react/.git/config",
+		"/var/www/html/mis-proyectos/laneta/twitter-unFollow/.git/config",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/README.md",
+		"/var/www/html/mis-proyectos/react/express-react/LICENSE",
+		"/var/www/html/mis-proyectos/sistema-base/.git/config",
+		"/var/www/html/mis-proyectos/react/express-react/public/js/bundle.js",
+		"/var/www/html/mis-proyectos/react/hello-world/src/index.js",
+		"/var/www/html/mis-proyectos/react/hello-world/src/components/App.js",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/src/index.js",
+		"/var/www/html/mis-proyectos/react/express-react/src/public/index.html",
+		"/var/www/html/mis-proyectos/react/express-react/src/index.js",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/package.json",
+		"/var/www/html/mis-proyectos/nodejs/08-express-gen/app.js",
+		"/home/developer/Documentos/Trabajo/MEXICO/usuarios.txt",
+		"/var/www/html/mis-proyectos/react/hello-world/src/components/Global/Header.js",
+		"/var/www/html/mis-proyectos/react/hello-world/src/components/Global/Footer.js",
+		"/var/www/html/mis-proyectos/react/hello-world/src/data/menu.js",
+		"/var/www/html/mis-proyectos/react/react-01/src/components/ToDo.js",
+		"/var/www/html/mis-proyectos/DptoArchivo/Vista/agregaOper.php",
+		"/var/www/html/mis-proyectos/react/react-01/.gitignore",
+		"/home/developer/Dropbox/Cuentas/wallets.txt",
+		"/home/developer/Documentos/Trabajo/MEXICO/twitter.com-LaNetaSiempre.txt",
+		"/var/www/html/mis-proyectos/react/hello-world/src/components/Global/css/Header.css",
+		"/home/developer/Dropbox/Cuentas/madre.txt",
+		"/var/www/html/mis-proyectos/react/hello-world/public/index.html",
+		"/var/www/html/mis-proyectos/react/hello-world/src/components/Global/Content.js",
+		"/var/www/html/mis-proyectos/react/hello-world/src/components/Global/css/Content.css",
+		"/var/www/html/mis-proyectos/react/hello-world/src/components/Global/css/Footer.css",
+		"/var/www/html/mis-proyectos/react/hello-world/package.json",
+		"/var/www/html/mis-proyectos/nodejs/login-node/package.json",
+		"/var/www/html/mis-proyectos/nodejs/login-node/README.md",
+		"/home/developer/Dropbox/Trabajo/Manuales y Tips/abrir-con.txt",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/mean-01.sublime-project",
+		"/home/developer/Documentos/Trabajo/MEXICO/usuarios-app-twitter.txt",
+		"/var/www/html/mis-proyectos/laneta/twitter-unFollow/src/main/java/com/mkyong/core/utils/App.java",
+		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/src/app/app.component.html",
+		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/src/app/app.component.ts",
+		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/src/app/app.module.ts",
+		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/.angular-cli.json",
+		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/src/styles.css",
+		"/home/developer/Descargas/TMP/tmp/inputs.txt",
+		"/media/developer/WINDATA/USUARIOS/PULIDOVPE/OTROS/mineria win/Monedero Monero y Bitcoin.txt",
+		"/var/www/html/mis-proyectos/nodejs/login-node/config/passport.js",
+		"/home/developer/Escritorio/Bolsa-de-comida.txt",
+		"/var/www/html/mis-proyectos/nodejs/login-node/.gitignore",
+		"/var/www/html/mis-proyectos/nodejs/login-node/server.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/config/auth.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/app/routes.js",
+		"/etc/hosts",
+		"/var/www/html/mis-proyectos/Sistema-PHP-POO/controladores/Usuario.php",
+		"/var/www/html/mis-proyectos/laratter/resources/views/home.blade.php",
+		"/home/developer/Documentos/PERSONAL/Informatica/celulares/bandas-celulares-venezuela.txt",
+		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/src/index.html",
+		"/home/developer/.npm/_logs/2018-04-28T12_38_13_311Z-debug.log",
+		"/home/developer/Escritorio/importante-devops.txt",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/index.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/login.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/profile.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/signup.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/app/models/user.js",
+		"/home/developer/Descargas/Readme.html",
+		"/home/developer/Descargas/Template-README.md",
+		"/home/developer/myCA/caconfig.cnf",
+		"/home/developer/myCA/localhost.cnf",
+		"/home/developer/Documentos/PERSONAL/Informatica/certificados/creando certificados-vpn.txt",
+		"/var/www/html/mis-proyectos/nodejs/06-registro-login/modelos/Usuario.js",
+		"/var/www/html/mis-proyectos/nodejs/03-proyecto/models/user.js",
+		"/var/www/html/mis-proyectos/nodejs/06-registro-login/server.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/config/database.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/profile.ejs",
+		"/var/www/html/mis-proyectos/nodejs/login-node/public/css/styles.css",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/connect-local.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/layout.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/login.ejs",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/signup.ejs",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/connect-local.ejs",
+		"/var/www/html/mis-proyectos/nodejs/07-login/views/layout.pug",
+		"/var/www/html/mis-proyectos/nodejs/03-proyecto/views/login.pug",
+		"/var/www/html/mis-proyectos/nodejs/07-login/views/login.pug",
+		"/var/www/html/mis-proyectos/nodejs/03-proyecto/public/css/app.css",
+		"/var/www/html/mis-proyectos/nodejs/07-login/views/index.pug",
+		"/var/www/html/mis-proyectos/nodejs/07-login/app.js",
+		"/var/www/html/mis-proyectos/nodejs/07-login/routes/users.js",
+		"/var/www/html/mis-proyectos/nodejs/07-login/package.json",
+		"/var/www/html/mis-proyectos/nodejs/03-proyecto/views/layout.pug",
+		"/home/developer/Escritorio/TMP/yam/minergate_yam_cpu_xmr.bat",
+		"/var/www/html/mis-proyectos/nodejs/03-proyecto/views/index.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/public/css/all.css",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/index.ejs",
+		"/var/www/html/mis-proyectos/DptoArchivo/Vista/requisitos.php",
+		"/var/www/html/mis-proyectos/nodejs/login-node/node_modules/@fortawesome/fontawesome-free-brands/README.md",
+		"/var/www/html/mis-proyectos/nodejs/login-node/node_modules/@fortawesome/fontawesome/index.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/node_modules/bootstrap/README.md",
+		"/var/www/html/otros-proyectos/html5/css/estilos.css",
+		"/home/developer/.cache/.fr-xBtpq3/yam-yvg1900-M7v-linux64-generic/readme.txt",
+		"/home/developer/.cache/.fr-ReDHFL/yam-yvg1900-M7v-linux64-generic/finetuning-xmr.txt",
+		"/home/developer/Escritorio/TMP/yam/yam-md5sums-signature.txt",
+		"/home/developer/Escritorio/bin/xmr-stak/build/bin/pools.txt",
+		"/home/developer/Escritorio/bin/xmr-stak/build/bin/cpu.txt"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 47.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "mern-stack-01.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
