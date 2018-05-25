@@ -29,7 +29,7 @@ npm run dev
 ```
 ## Tasks / Lista de Tareas
 - [x] Inicializar repositorio
-- [ ] Subir mis primeros cambios a GitHub
+- [x] Subir mis primeros cambios a GitHub
 - [ ] Completar el back-end
 - [ ] Completar el front-end
 
