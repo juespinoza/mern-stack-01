@@ -10,6 +10,9 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, '../client'));
 app.use(express.static(path.join(__dirname, '../client')));
 
+// static files
+// app.use('/modules',express.static(path.join(__dirname, 'node_modules')))
+
 // Routes********************
 app.use('/', router);
 
