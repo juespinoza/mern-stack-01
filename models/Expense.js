@@ -7,3 +7,7 @@ const expenseSchema = new Schema({
   month: String,
   year: Number
 });
+
+const Expense = mongoose.model("Expense",expenseSchema);
+
+module.exports.Expense = Expense;

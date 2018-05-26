@@ -31,7 +31,7 @@ npm run dev
 ## Tasks / Lista de Tareas
 - [x] Inicializar repositorio
 - [x] Subir mis primeros cambios a GitHub
-- [ ] Completar el back-end
+- [x] Completar el back-end
 - [ ] Completar el front-end
 
 ## Contribute / Para contribuir
@@ -44,6 +44,7 @@ npm run dev
 ## Credits / Créditos
 En este proyecto, me he guiado del tutorial publicado en esta página:
 [CloudBoost](https://blog.cloudboost.io/creating-your-first-mern-stack-application-b6604d12e4d3), propiedad del usuario @github/umairaslamm 
+También me guié de otros blogs de programación y respuestas en stackoverflow.
 
 ## License / Licencia
 Pulido V.P.E. – @github/pulidovpe – pulidovpe.dev@gmail.com

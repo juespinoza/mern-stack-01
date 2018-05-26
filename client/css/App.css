@@ -27,15 +27,17 @@ table {
 
 .Modal {
 	position: relative;
-	top: 250px;
-	left: 400px;
-	right: 20px;
-	bottom: 20px;
+	top: 50%;
+	left: 50%;
+	right: auto;
+	bottom: auto;
+	margin-right: -50%;
 	background-color: #F5F5F5;
 	width:500px;
 	border: 1px solid #000;
 	border-radius: 4px;
 	padding: 20px;
+	transform: translate(-50%, -50%);
 }
 
 .Overlay {

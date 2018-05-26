@@ -103,7 +103,7 @@ class Add extends Component {
 						contentLabel="Add Expense"
 						className="Modal">
 						<Link to={{pathname: '/', search: '' }} style={{ textDecoration: 'none' }}>
-							<Button bsStyle="danger" bsSize="mini" onClick={this.closeModal}>
+							<Button bsStyle="danger" bsSize="small" onClick={this.closeModal}>
 								<span className="closebtn glyphicon glyphicon-remove"></span>
 							</Button>
 						</Link><br/>
@@ -188,7 +188,7 @@ class Add extends Component {
 							<Link to={{pathname: '/', search: '' }} style={{ textDecoration: 'none' }}>
 								<Button 
 									bsStyle="success" 
-									bsSize="mini" 
+									bsSize="small" 
 									onClick={this.closeModal}>
 									Close the Dialog
 								</Button>

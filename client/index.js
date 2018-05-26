@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
+/*import Bootstrap from 'bootstrap/dist/css/bootstrap.css';*/
 import Routes from './routes';
 
 ReactDOM.render(

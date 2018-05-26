@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Expense = require('../../models/Expense');
-// var bodyParser = require('body-parser'); - No need it body-parser since express 4.16.2
+const Expense = require("../../models/Expense").Expense; // importar solo el modelo.
 
 router.get('/', (req, res) => {
  	res.render('index')

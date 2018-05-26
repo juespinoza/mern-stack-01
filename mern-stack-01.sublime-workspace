@@ -244,10 +244,10 @@
 	"buffers":
 	[
 		{
-			"file": "webpack.config.js",
+			"file": "server/server.js",
 			"settings":
 			{
-				"buffer_size": 459,
+				"buffer_size": 1183,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -261,46 +261,37 @@
 			}
 		},
 		{
-			"file": "client/index.pug",
-			"settings":
-			{
-				"buffer_size": 392,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/index.js",
-			"settings":
-			{
-				"buffer_size": 157,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "server/server.js",
-			"settings":
-			{
-				"buffer_size": 536,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "server/routes/routes.js",
 			"settings":
 			{
-				"buffer_size": 156,
+				"buffer_size": 1547,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bin/www",
+			"file": "client/components/Add.js",
 			"settings":
 			{
-				"buffer_size": 212,
+				"buffer_size": 5371,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/css/App.css",
+			"settings":
+			{
+				"buffer_size": 838,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/routes.js",
+			"settings":
+			{
+				"buffer_size": 253,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -310,36 +301,26 @@
 			"settings":
 			{
 				"buffer_size": 438,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/mis-proyectos/nodejs/login-node/views/index.pug",
+			"file": "client/index.js",
 			"settings":
 			{
-				"buffer_size": 569,
+				"buffer_size": 252,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/mis-proyectos/nodejs/login-node/views/layout.pug",
-			"settings":
-			{
-				"buffer_size": 455,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "https://twitter.com/LaNetaSiempre/status/999451908363431936\nhttps://twitter.com/LaNetaSiempre/status/999622546751459328 e\n\nhttps://twitter.com/followers\n---------------------------\nPerfiles\nhttps://twitter.com/AristeguiOnline\nhttps://twitter.com/UNAM_MX\nhttps://twitter.com/oneamexico\nhttps://twitter.com/ExpansionMx\nhttps://twitter.com/CNNEE\nhttps://twitter.com/Univ_Deportivo ???\nhttps://twitter.com/El_Universal_Mx\nhttps://twitter.com/brozoxmiswebs\nhttps://twitter.com/ADNPolitico\nhttps://twitter.com/sopitas\nhttps://twitter.com/RoyCampos\nhttps://twitter.com/ntv_noticias\nhttps://twitter.com/gonzalezmarta33\nhttps://twitter.com/Elect1Expresion\nhttps://twitter.com/LuzElenaGlez\nhttps://twitter.com/AltStardust\nhttps://twitter.com/Pajaropolitico\nhttps://twitter.com/leonguerrero100\nhttps://twitter.com/ImagenTVDeporte\nhttps://twitter.com/rociojimenez15\nhttps://twitter.com/Travelmex\nhttps://twitter.com/CGTNOfficial\nhttps://twitter.com/ElInformanteMX\nhttps://twitter.com/ViajesNG\nhttps://twitter.com/DiverAnimales\nhttps://twitter.com/MaltaCleytonMex\nhttps://twitter.com/GanaderiayAgro\nhttps://twitter.com/VeteEnfurecida\nhttps://twitter.com/women_coup\nhttps://twitter.com/MagicalWolrd\nhttps://twitter.com/usa_photo_art_y\nhttps://twitter.com/starwars\nhttps://twitter.com/StarWarsLATAM\nhttps://twitter.com/StarWarsSpain\nhttps://twitter.com/OphCourse\nhttps://twitter.com/EmmaWatson\nhttps://twitter.com/XBebeshita\nhttps://twitter.com/TommyVoyTelas\nhttps://twitter.com/Cyana_Love\nhttps://twitter.com/veronicadoblas5\nhttps://twitter.com/ang_san3\nhttps://twitter.com/AyChicasOficial\nhttps://twitter.com/nCastilloooo\nhttps://twitter.com/CompaZapataMx\nhttps://twitter.com/FresitaDaa\nhttps://twitter.com/Trildelirium\nhttps://twitter.com/Alanis\nhttps://twitter.com/davidduchovny\n---------------------------\nhttps://twitter.com/eljuancho69\n\n\nhttps://twitter.com/rafucho140\n\n\nhttps://twitter.com/InfanteAlb\n\n\nhttps://twitter.com/gallegos_79\n\n\nhttps://twitter.com/x_carmencita\n\n\nhttps://twitter.com/rivasjoel68\n\n\nhttps://twitter.com/AnaFagundez12\n\n\nhttps://twitter.com/PabloMarchena2\n\n\nhttps://twitter.com/MartinezMelicar\n\n\nhttps://twitter.com/alfonzo_1992\n\n\nhttps://twitter.com/Eduardo52136632\n\n\nhttps://twitter.com/natyvega1996\n\nhttps://www.facebook.com/groups/1105875346134657/\nhttps://www.facebook.com/groups/1276443619126334/\nhttps://www.facebook.com/PartidoMORENA/\nhttps://www.facebook.com/groups/1633583123601389/\nhttps://www.facebook.com/Amlo-Presidente-Constitucional-2018-101004609956158/\nhttps://www.facebook.com/lopezobrador.orgs.mx/\nhttps://www.facebook.com/AMLO-con-Mexico-589686351371549/\nhttps://www.facebook.com/groups/1634969800132953/\nhttps://www.facebook.com/PeriodistasMXMadrid/\nhttps://www.facebook.com/PERIODISTAS-PROGRESISTAS-MEXICANOS-AC-156293917801209/\n",
+			"contents": "https://twitter.com/LaNetaSiempre/status/999983453117538304 e\nhttps://twitter.com/LaNetaSiempre/status/1000048163095531520 e\n\n\nhttps://twitter.com/followers\n---------------------------\nPerfiles\nhttps://twitter.com/AristeguiOnline\nhttps://twitter.com/UNAM_MX\nhttps://twitter.com/oneamexico\nhttps://twitter.com/ExpansionMx\nhttps://twitter.com/CNNEE\nhttps://twitter.com/Univ_Deportivo ???\nhttps://twitter.com/El_Universal_Mx\nhttps://twitter.com/brozoxmiswebs\nhttps://twitter.com/ADNPolitico\nhttps://twitter.com/sopitas\nhttps://twitter.com/RoyCampos\nhttps://twitter.com/ntv_noticias\nhttps://twitter.com/gonzalezmarta33\nhttps://twitter.com/Elect1Expresion\nhttps://twitter.com/LuzElenaGlez\nhttps://twitter.com/AltStardust\nhttps://twitter.com/Pajaropolitico\nhttps://twitter.com/leonguerrero100\nhttps://twitter.com/ImagenTVDeporte\nhttps://twitter.com/rociojimenez15\nhttps://twitter.com/Travelmex\nhttps://twitter.com/CGTNOfficial\nhttps://twitter.com/ElInformanteMX\nhttps://twitter.com/ViajesNG\nhttps://twitter.com/DiverAnimales\nhttps://twitter.com/MaltaCleytonMex\nhttps://twitter.com/GanaderiayAgro\nhttps://twitter.com/VeteEnfurecida\nhttps://twitter.com/women_coup\nhttps://twitter.com/MagicalWolrd\nhttps://twitter.com/usa_photo_art_y\nhttps://twitter.com/starwars\nhttps://twitter.com/StarWarsLATAM\nhttps://twitter.com/StarWarsSpain\nhttps://twitter.com/OphCourse\nhttps://twitter.com/EmmaWatson\nhttps://twitter.com/XBebeshita\nhttps://twitter.com/TommyVoyTelas\nhttps://twitter.com/Cyana_Love\nhttps://twitter.com/veronicadoblas5\nhttps://twitter.com/ang_san3\nhttps://twitter.com/AyChicasOficial\nhttps://twitter.com/nCastilloooo\nhttps://twitter.com/CompaZapataMx\nhttps://twitter.com/FresitaDaa\nhttps://twitter.com/Trildelirium\nhttps://twitter.com/Alanis\nhttps://twitter.com/davidduchovny\n---------------------------\nhttps://twitter.com/eljuancho69\n\n\nhttps://twitter.com/rafucho140\n\n\nhttps://twitter.com/InfanteAlb\n\n\nhttps://twitter.com/gallegos_79\n\n\nhttps://twitter.com/x_carmencita\n\n\nhttps://twitter.com/rivasjoel68\n\n\nhttps://twitter.com/AnaFagundez12\n\n\nhttps://twitter.com/PabloMarchena2\n\n\nhttps://twitter.com/MartinezMelicar\n\n\nhttps://twitter.com/alfonzo_1992\n\n\nhttps://twitter.com/Eduardo52136632\n\n\nhttps://twitter.com/natyvega1996\n\nhttps://www.facebook.com/groups/1105875346134657/\nhttps://www.facebook.com/groups/1276443619126334/\nhttps://www.facebook.com/PartidoMORENA/\nhttps://www.facebook.com/groups/1633583123601389/\nhttps://www.facebook.com/Amlo-Presidente-Constitucional-2018-101004609956158/\nhttps://www.facebook.com/lopezobrador.orgs.mx/\nhttps://www.facebook.com/AMLO-con-Mexico-589686351371549/\nhttps://www.facebook.com/groups/1634969800132953/\nhttps://www.facebook.com/PeriodistasMXMadrid/\nhttps://www.facebook.com/PERIODISTAS-PROGRESISTAS-MEXICANOS-AC-156293917801209/\n",
 			"file": "/home/developer/Documentos/Trabajo/MEXICO/twitter.com-LaNetaSiempre.txt",
 			"file_size": 2690,
 			"file_write_time": 131715645960086124,
 			"settings":
 			{
-				"buffer_size": 2766,
+				"buffer_size": 2770,
 				"line_ending": "Unix"
 			}
 		},
@@ -355,7 +336,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1307,
+				"buffer_size": 1315,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -374,6 +355,15 @@
 			{
 				"buffer_size": 37,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/developer/Dropbox/Cuentas/wallets.txt",
+			"settings":
+			{
+				"buffer_size": 6492,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -447,19 +437,39 @@
 		"/var/www/html/mis-proyectos/react/mern-stack-01/client",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/client/components",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/client/css",
-		"/var/www/html/mis-proyectos/react/mern-stack-01/server"
+		"/var/www/html/mis-proyectos/react/mern-stack-01/config",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/models",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/server",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/server/routes"
 	],
 	"file_history":
 	[
+		"/var/www/html/mis-proyectos/react/mern-stack-01/config/database.js",
+		"/var/www/html/mis-proyectos/react/express-react/src/components/App.jsx",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/client/index.pug",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/models/Expense.js",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/client/index.js",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/bin/www",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/client/components/App.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/index.pug",
+		"/var/www/html/mis-proyectos/nodejs/login-node/views/layout.pug",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/package.json",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/webpack.config.js",
+		"/home/developer/Dropbox/Trabajo/Inversiones Pulido/Clientes/Toyokelly/seguridad.txt",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/src/index.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/server.js",
+		"/var/www/html/mis-proyectos/react/express-react-01/server.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/config/database.js",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/src/routes/tasks.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/app/models/user.js",
+		"/var/www/html/mis-proyectos/nodejs/login-node/config/passport.js",
+		"/var/www/html/mis-proyectos/nodejs/mean-01/src/routes/index.js",
 		"/var/www/html/mis-proyectos/react/express-react/src/index.jsx",
 		"/var/www/html/mis-proyectos/react/express-react/package.json",
 		"/var/www/html/mis-proyectos/react/express-react/.babelrc",
 		"/var/www/html/mis-proyectos/react/express-react/webpack.config.js",
 		"/var/www/html/mis-proyectos/react/express-react-01/webpack.config.js",
-		"/var/www/html/mis-proyectos/react/express-react-01/server.js",
 		"/var/www/html/mis-proyectos/react/express-react/nodemon.json",
-		"/var/www/html/mis-proyectos/nodejs/login-node/server.js",
-		"/var/www/html/mis-proyectos/nodejs/mean-01/src/index.js",
 		"/var/www/html/mis-proyectos/react/express-react/server.js",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/.git/config",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/.gitignore",
@@ -530,7 +540,6 @@
 		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/src/styles.css",
 		"/home/developer/Descargas/TMP/tmp/inputs.txt",
 		"/media/developer/WINDATA/USUARIOS/PULIDOVPE/OTROS/mineria win/Monedero Monero y Bitcoin.txt",
-		"/var/www/html/mis-proyectos/nodejs/login-node/config/passport.js",
 		"/home/developer/Escritorio/Bolsa-de-comida.txt",
 		"/var/www/html/mis-proyectos/nodejs/login-node/.gitignore",
 		"/var/www/html/mis-proyectos/nodejs/login-node/config/auth.js",
@@ -542,11 +551,9 @@
 		"/var/www/html/mis-proyectos/angularjs/01-inicio/primera-app/src/index.html",
 		"/home/developer/.npm/_logs/2018-04-28T12_38_13_311Z-debug.log",
 		"/home/developer/Escritorio/importante-devops.txt",
-		"/var/www/html/mis-proyectos/nodejs/login-node/views/index.pug",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/login.pug",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/profile.pug",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/signup.pug",
-		"/var/www/html/mis-proyectos/nodejs/login-node/app/models/user.js",
 		"/home/developer/Descargas/Readme.html",
 		"/home/developer/Descargas/Template-README.md",
 		"/home/developer/myCA/caconfig.cnf",
@@ -555,34 +562,20 @@
 		"/var/www/html/mis-proyectos/nodejs/06-registro-login/modelos/Usuario.js",
 		"/var/www/html/mis-proyectos/nodejs/03-proyecto/models/user.js",
 		"/var/www/html/mis-proyectos/nodejs/06-registro-login/server.js",
-		"/var/www/html/mis-proyectos/nodejs/login-node/config/database.js",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/profile.ejs",
 		"/var/www/html/mis-proyectos/nodejs/login-node/public/css/styles.css",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/connect-local.pug",
-		"/var/www/html/mis-proyectos/nodejs/login-node/views/layout.pug",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/login.ejs",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/signup.ejs",
 		"/var/www/html/mis-proyectos/nodejs/login-node/views/connect-local.ejs",
 		"/var/www/html/mis-proyectos/nodejs/07-login/views/layout.pug",
 		"/var/www/html/mis-proyectos/nodejs/03-proyecto/views/login.pug",
 		"/var/www/html/mis-proyectos/nodejs/07-login/views/login.pug",
-		"/var/www/html/mis-proyectos/nodejs/03-proyecto/public/css/app.css",
-		"/var/www/html/mis-proyectos/nodejs/07-login/views/index.pug",
-		"/var/www/html/mis-proyectos/nodejs/07-login/app.js",
-		"/var/www/html/mis-proyectos/nodejs/07-login/routes/users.js",
-		"/var/www/html/mis-proyectos/nodejs/07-login/package.json",
-		"/var/www/html/mis-proyectos/nodejs/03-proyecto/views/layout.pug",
-		"/home/developer/Escritorio/TMP/yam/minergate_yam_cpu_xmr.bat",
-		"/var/www/html/mis-proyectos/nodejs/03-proyecto/views/index.pug",
-		"/var/www/html/mis-proyectos/nodejs/login-node/public/css/all.css",
-		"/var/www/html/mis-proyectos/nodejs/login-node/views/index.ejs",
-		"/var/www/html/mis-proyectos/DptoArchivo/Vista/requisitos.php",
-		"/var/www/html/mis-proyectos/nodejs/login-node/node_modules/@fortawesome/fontawesome-free-brands/README.md",
-		"/var/www/html/mis-proyectos/nodejs/login-node/node_modules/@fortawesome/fontawesome/index.js"
+		"/var/www/html/mis-proyectos/nodejs/03-proyecto/public/css/app.css"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 53.0
 	},
 	"find_in_files":
 	{
@@ -596,6 +589,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"response",
+			"function",
 			"express-react.git"
 		],
 		"highlight": false,
@@ -615,43 +610,44 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "webpack.config.js",
+					"file": "server/server.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 459,
+						"buffer_size": 1183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
+								377,
+								377
 							]
 						],
 						"settings":
 						{
-							"SL.80.region_keys":
+							"SL.19.region_keys":
+							[
+							],
+							"SL.74.region_keys":
 							[
 							],
 							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527215107.28,
+							"markdonw_live_preview_last_run": 1527213961.92,
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 192.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -667,50 +663,119 @@
 						"selection":
 						[
 							[
-								544,
-								544
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete": true,
-							"markdonw_live_preview_last_run": 1527179232.11,
+							"markdonw_live_preview_last_run": 1527300869.15,
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 96.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "client/index.pug",
+					"file": "server/routes/routes.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 392,
+						"buffer_size": 1547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								209,
-								209
+								276,
+								276
 							]
 						],
 						"settings":
 						{
-							"SL.61.region_keys":
+							"SL.20.region_keys":
+							[
+							],
+							"SL.78.region_keys":
 							[
 							],
 							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527179345.85,
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"markdonw_live_preview_last_run": 1527214543.68,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 192.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/components/Add.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1638,
+								1638
+							]
+						],
+						"settings":
+						{
+							"SL.47.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"markdonw_live_preview_last_run": 1527278128.9,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2208.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/css/App.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1527282291.98,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
@@ -718,186 +783,51 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 157,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								96,
-								96
-							]
-						],
-						"settings":
-						{
-							"SL.71.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527181087.39,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "server/server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 536,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								390,
-								390
-							]
-						],
-						"settings":
-						{
-							"SL.74.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527213961.92,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 192.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "server/routes/routes.js",
+					"file": "client/routes.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 156,
+						"buffer_size": 253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								36,
-								41
+								129,
+								129
 							]
 						],
 						"settings":
 						{
-							"SL.78.region_keys":
+							"SL.51.region_keys":
 							[
 							],
 							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527214543.68,
+							"markdonw_live_preview_last_run": 1527282563.43,
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "bin/www",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 212,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								5
-							]
-						],
-						"settings":
-						{
-							"SL.79.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527214801.82,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "client/components/App.js",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"SL.70.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527180958.52,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/var/www/html/mis-proyectos/nodejs/login-node/views/index.pug",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 569,
 						"regions":
 						{
 						},
@@ -910,68 +840,76 @@
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1527179784.75,
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"SL.53.region_keys":
+							[
+							],
+							"markdonw_live_preview_last_run": 1527282886.27,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 96.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "/var/www/html/mis-proyectos/nodejs/login-node/views/layout.pug",
+					"buffer": 7,
+					"file": "client/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 455,
+						"buffer_size": 252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								160
+								156,
+								156
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1527179791.14,
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"SL.52.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"markdonw_live_preview_last_run": 1527282667.56,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 10,
+					"buffer": 8,
 					"file": "/home/developer/Documentos/Trabajo/MEXICO/twitter.com-LaNetaSiempre.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2766,
+						"buffer_size": 2770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								119,
-								119
+								122,
+								122
 							]
 						],
 						"settings":
@@ -982,6 +920,9 @@
 							"SL.22.region_keys":
 							[
 							],
+							"SL.25.region_keys":
+							[
+							],
 							"markdonw_live_preview_last_run": 1526906147.72,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -989,11 +930,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "/home/developer/Documentos/Trabajo/MEXICO/usuarios.txt",
 					"semi_transient": false,
 					"settings":
@@ -1017,6 +958,9 @@
 							"SL.23.region_keys":
 							[
 							],
+							"SL.26.region_keys":
+							[
+							],
 							"markdonw_live_preview_last_run": 1526998020.2,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -1024,44 +968,47 @@
 						"translation.y": 681.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 10,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1307,
+						"buffer_size": 1315,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								521,
-								521
+								141,
+								141
 							]
 						],
 						"settings":
 						{
+							"SL.27.region_keys":
+							[
+							],
 							"SL.54.region_keys":
 							[
 							],
 							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527218269.7,
+							"markdonw_live_preview_last_run": 1527282137.05,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 100.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 11,
 					"file": "/var/www/html/mis-proyectos/react/express-react/webpack.config.js",
 					"semi_transient": false,
 					"settings":
@@ -1079,6 +1026,9 @@
 						],
 						"settings":
 						{
+							"SL.28.region_keys":
+							[
+							],
 							"SL.90.region_keys":
 							[
 							],
@@ -1090,11 +1040,11 @@
 						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 12,
 					"file": "/var/www/html/mis-proyectos/react/express-react/.babelrc",
 					"semi_transient": false,
 					"settings":
@@ -1112,6 +1062,9 @@
 						],
 						"settings":
 						{
+							"SL.29.region_keys":
+							[
+							],
 							"markdonw_live_preview_last_run": 1527216997.26,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -1119,7 +1072,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/developer/Dropbox/Cuentas/wallets.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1459,
+								1459
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1527266919.04,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1158,7 +1140,7 @@
 		"rows":
 		[
 			0.0,
-			0.879440716905,
+			0.859327217125,
 			1.0
 		]
 	},
@@ -1183,7 +1165,7 @@
 	"project": "mern-stack-01.sublime-project",
 	"replace":
 	{
-		"height": 98.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":
