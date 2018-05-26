@@ -7,14 +7,12 @@ const router = require('./routes/routes.js');
 
 // Const declaration*********
 const app = express();
-const configDB = require('./config/database.js');
+const configDB = require('../config/database.js');
 
 // Utilizar las promesas de node
 mongoose.Promise = global.Promise;
 // connect to our database
-mongoose.connect(configDB.url, { 
-	useMongoClient: true
-});
+mongoose.connect(configDB.url);
 mongoose.connection.on('error', (err) => {
 	throw err;
 	process.exit(1);

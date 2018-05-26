@@ -8,6 +8,7 @@
 - Node
 	- express
 	- path
+- Axios
 - Mongoose
 - Babel
 - React
