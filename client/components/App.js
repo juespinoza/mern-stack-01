@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import Add from './Add';
+import Update from './Update';
 
 import '../css/App.css';
 
@@ -39,18 +40,22 @@ class App extends Component {
 							<th className='button-col'>Amount</th>
 							<th className='button-col'>Month</th>
 							<th className='button-col'>Year</th>
+							<th className='button-col'>Update</th>
 						</tr>
 					</thead>
 					<tbody>
 						{
 							this.state.data.map((exp) => {
-								return  (<tr>
-													<td className='counterCell'></td>
-													<td className='desc-col'>{exp.description}</td>
-													<td className='button-col'>{exp.amount}</td>
-													<td className='button-col'>{exp.month}</td>
-													<td className='button-col'>{exp.year}</td>
-												</tr>)
+								return  (
+									<tr>
+										<td className='counterCell'></td>
+										<td className='desc-col'>{exp.description}</td>
+										<td className='button-col'>{exp.amount}</td>
+										<td className='button-col'>{exp.month}</td>
+										<td className='button-col'>{exp.year}</td>
+										<td className='button-col'><Update expense={exp} /></td>
+									</tr>
+								);
 							})
 						}
 						</tbody>
