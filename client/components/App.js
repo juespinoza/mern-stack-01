@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import Add from './Add';
 import Update from './Update';
+import Delete from './Delete';
 
 import '../css/App.css';
 
@@ -41,19 +42,21 @@ class App extends Component {
 							<th className='button-col'>Month</th>
 							<th className='button-col'>Year</th>
 							<th className='button-col'>Update</th>
+							<th className='button-col'>Delete</th>
 						</tr>
 					</thead>
 					<tbody>
 						{
-							this.state.data.map((exp) => {
+							this.state.data.map((exp, idx) => {
 								return  (
 									<tr>
-										<td className='counterCell'></td>
+										<td className='counterCell' key={idx}></td>
 										<td className='desc-col'>{exp.description}</td>
 										<td className='button-col'>{exp.amount}</td>
 										<td className='button-col'>{exp.month}</td>
 										<td className='button-col'>{exp.year}</td>
 										<td className='button-col'><Update expense={exp} /></td>
+										<td className='button-col'><Delete expense={exp} /></td>
 									</tr>
 								);
 							})

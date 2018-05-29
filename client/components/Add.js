@@ -93,7 +93,7 @@ class Add extends Component {
 	render() {
 		if(this.state.messageFromServer == ''){
 			return (
-				<div>
+				<div className="Add">
 					<Button bsStyle="success" bsSize="small" onClick={this.openModal}>
 						<span className="glyphicon glyphicon-plus"></span>
 					</Button>
@@ -170,7 +170,7 @@ class Add extends Component {
 			)
 		} else {
 			return (
-				<div>
+				<div className="Add">
 					<Button 
 						bsStyle="success" 
 						bsSize="small" 

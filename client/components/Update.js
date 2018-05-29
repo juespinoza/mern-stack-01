@@ -1,12 +1,12 @@
 //client/components/Update.js
-import React from 'react';
+import React, { Component } from 'react';
 import Modal from 'react-modal';
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 const querystring = require('querystring');
 
-class Update extends React.Component {
+class Update extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -120,7 +120,7 @@ class Update extends React.Component {
 						<Link to={{pathname: '/', search: '' }} style={{ textDecoration: 'none' }}>
 							<Button 
 								bsStyle="danger" 
-								bsSize="mini" 
+								bsSize="small" 
 								onClick={this.closeModal}>
 								<span className="closebtn glyphicon glyphicon-remove"></span>
 							</Button>
@@ -186,7 +186,7 @@ class Update extends React.Component {
 						</div>
 					</Modal>
 				</div>
-			)
+			);
 		} else {
 			return (
 				<div>
@@ -207,7 +207,7 @@ class Update extends React.Component {
 							<Link to={{ pathname: '/', search: '' }} style={{ textDecoration: 'none' }}>
 								<Button 
 									bsStyle="success" 
-									bsSize="mini" 
+									bsSize="small" 
 									onClick={this.closeModal}>
 									Close the Dialog
 								</Button>
@@ -215,7 +215,7 @@ class Update extends React.Component {
 						</div>
 					</Modal>
 				</div>
-			)
+			);
 		}
 	}
 }
