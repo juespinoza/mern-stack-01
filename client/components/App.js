@@ -11,29 +11,54 @@ import '../css/App.css';
 class App extends Component {
 	constructor() {
 		super();
-		this.state = {selectedMonth:'Jan', selectedYear: 2016, data: []};
+		this.state = {
+			selectedMonth:'Jan', 
+			selectedYear: 2016, 
+			data: [], 
+			indice: 0
+		};
 		this.getData = this.getData.bind(this);
+		this.getDelete = this.getDelete.bind(this);
 	}
 	componentDidMount() {
 		this.getData(this, '2016');
+		console.log('Recibe data mount');
 	}
 	componentWillReceiveProps(nextProps) {
 		this.getData(this, '2016');
+		console.log('Recibe data prop');
 	}
 
 	getData(ev, year) {
 		axios.get('/getAll?month=All&year='+year)
 			.then((response) => {
 				ev.setState({data: response.data});
-				ev.setState({selectedYear: parseInt(year)})
+				ev.setState({selectedYear: parseInt(year)});
 			});
+	}
+
+	getDelete(idx){
+		console.log(idx);
+		
+		let elementosActualizados = [...this.state.data];
+		elementosActualizados.splice(idx, 1);
+		//re creamos el estado para que vuelva a renderizar
+		this.setState({
+			...this.state,
+			data: elementosActualizados,
+			indice: idx
+		});
+		//Vuelvo a pedir los datos a ver si actualiza correctamente
+		//this.getData(this, '2016');
+		console.log(elementosActualizados);
 	}
 
 	render() {
 		return (
 			<div className="App">
+				<h3>Elemento eliminado: {this.state.indice}</h3>
 				<Add selectedMonth={this.state.selectedMonth} selectedYear={this.state.selectedYear} />
-				<table>
+				<table id="expense">
 					<thead>
 						<tr>
 							<th></th>
@@ -49,19 +74,22 @@ class App extends Component {
 						{
 							this.state.data.map((exp, idx) => {
 								return  (
-									<tr>
-										<td className='counterCell' key={idx}></td>
+									<tr key={idx}>
+										<td className='counterCell'></td>
 										<td className='desc-col'>{exp.description}</td>
 										<td className='button-col'>{exp.amount}</td>
 										<td className='button-col'>{exp.month}</td>
 										<td className='button-col'>{exp.year}</td>
 										<td className='button-col'><Update expense={exp} /></td>
-										<td className='button-col'><Delete expense={exp} /></td>
+										<td className='button-col'>
+											<Delete expense={exp} callback={this.getDelete.bind(this, idx)} />
+											{idx}
+										</td>
 									</tr>
 								);
 							})
 						}
-						</tbody>
+					</tbody>
 				</table>
 			</div>
 		);

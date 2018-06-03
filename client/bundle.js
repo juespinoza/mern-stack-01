@@ -34350,6 +34350,8 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(0);
@@ -34380,6 +34382,8 @@ __webpack_require__(387);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -34395,8 +34399,14 @@ var App = function (_Component) {
 
 		var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
 
-		_this.state = { selectedMonth: 'Jan', selectedYear: 2016, data: [] };
+		_this.state = {
+			selectedMonth: 'Jan',
+			selectedYear: 2016,
+			data: [],
+			indice: 0
+		};
 		_this.getData = _this.getData.bind(_this);
+		_this.getDelete = _this.getDelete.bind(_this);
 		return _this;
 	}
 
@@ -34404,11 +34414,13 @@ var App = function (_Component) {
 		key: 'componentDidMount',
 		value: function componentDidMount() {
 			this.getData(this, '2016');
+			console.log('Recibe data mount');
 		}
 	}, {
 		key: 'componentWillReceiveProps',
 		value: function componentWillReceiveProps(nextProps) {
 			this.getData(this, '2016');
+			console.log('Recibe data prop');
 		}
 	}, {
 		key: 'getData',
@@ -34419,15 +34431,37 @@ var App = function (_Component) {
 			});
 		}
 	}, {
+		key: 'getDelete',
+		value: function getDelete(idx) {
+			console.log(idx);
+
+			var elementosActualizados = [].concat(_toConsumableArray(this.state.data));
+			elementosActualizados.splice(idx, 1);
+			//re creamos el estado para que vuelva a renderizar
+			this.setState(_extends({}, this.state, {
+				data: elementosActualizados
+			}));
+			this.getData(this, '2016');
+			console.log(elementosActualizados);
+		}
+	}, {
 		key: 'render',
 		value: function render() {
+			var _this2 = this;
+
 			return _react2.default.createElement(
 				'div',
 				{ className: 'App' },
+				_react2.default.createElement(
+					'h3',
+					null,
+					'Elemento eliminado: ',
+					this.state.indice
+				),
 				_react2.default.createElement(_Add2.default, { selectedMonth: this.state.selectedMonth, selectedYear: this.state.selectedYear }),
 				_react2.default.createElement(
 					'table',
-					null,
+					{ id: 'expense' },
 					_react2.default.createElement(
 						'thead',
 						null,
@@ -34473,8 +34507,8 @@ var App = function (_Component) {
 						this.state.data.map(function (exp, idx) {
 							return _react2.default.createElement(
 								'tr',
-								null,
-								_react2.default.createElement('td', { className: 'counterCell', key: idx }),
+								{ key: idx },
+								_react2.default.createElement('td', { className: 'counterCell' }),
 								_react2.default.createElement(
 									'td',
 									{ className: 'desc-col' },
@@ -34503,7 +34537,8 @@ var App = function (_Component) {
 								_react2.default.createElement(
 									'td',
 									{ className: 'button-col' },
-									_react2.default.createElement(_Delete2.default, { expense: exp })
+									_react2.default.createElement(_Delete2.default, { expense: exp, callback: _this2.getDelete.bind(_this2, idx) }),
+									idx
 								)
 							);
 						})
@@ -35528,6 +35563,7 @@ var Add = function (_Component) {
 				e.setState({
 					messageFromServer: response.data
 				});
+				console.log(response.data);
 			});
 		}
 	}, {
@@ -35775,6 +35811,7 @@ var Add = function (_Component) {
 	return Add;
 }(_react.Component);
 
+_reactModal2.default.setAppElement('#root');
 exports.default = Add;
 
 /***/ }),
@@ -48870,6 +48907,10 @@ var Update = function (_Component) {
 		key: 'closeModal',
 		value: function closeModal() {
 			this.setState({
+				description: '',
+				amount: '',
+				month: '',
+				year: '',
 				modalIsOpen: false,
 				messageFromServer: ''
 			});
@@ -48925,6 +48966,7 @@ var Update = function (_Component) {
 				e.setState({
 					messageFromServer: response.data
 				});
+				console(response.data);
 			});
 		}
 	}, {
@@ -49169,6 +49211,7 @@ var Update = function (_Component) {
 	return Update;
 }(_react.Component);
 
+_reactModal2.default.setAppElement('#root');
 exports.default = Update;
 
 /***/ }),
@@ -49218,8 +49261,7 @@ var Delete = function (_Component) {
 		var _this = _possibleConstructorReturn(this, (Delete.__proto__ || Object.getPrototypeOf(Delete)).call(this));
 
 		_this.state = {
-			id: '',
-			messageFromServer: ''
+			id: ''
 		};
 		_this.onClick = _this.onClick.bind(_this);
 		_this.delete = _this.delete.bind(_this);
@@ -49237,15 +49279,13 @@ var Delete = function (_Component) {
 		key: 'onClick',
 		value: function onClick(e) {
 			this.delete(this);
+			this.props.callback(this.props.idx);
 		}
 	}, {
 		key: 'delete',
 		value: function _delete(e) {
 			_axios2.default.get('/delete?id=' + e.state.id).then(function (res) {
-				e.setState({
-					messageFromServer: res.data
-				});
-				console.log('Deleted');
+				console.log(res);
 			}).catch(function (error) {
 				console.log(error);
 			});
@@ -49264,7 +49304,7 @@ var Delete = function (_Component) {
 						bsStyle: 'danger',
 						bsSize: 'small',
 						onClick: function onClick() {
-							if (window.confirm("Are you sure?")) _this2.onClick();
+							if (window.confirm("Are you sure to delete?")) _this2.onClick();
 						} },
 					_react2.default.createElement(
 						_reactRouterDom.Link,

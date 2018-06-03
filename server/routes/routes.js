@@ -35,10 +35,16 @@ router.route('/update').post((req, res) => {
 
 router.get('/delete', (req, res) => {
 	let id = req.query.id;
-	Expense.find({_id: id}).remove().exec((err, expense) => {
-		if(err) res.send(err);
-		res.send('Expense successfully deleted!');
-	});
+	Expense.findOneAndRemove({ _id: id }) 
+    .exec(function(err, item) {
+        if (err) {
+            return res.status(404).send('Cannot remove item');
+        }       
+        if (!item) {
+            return res.status(404).send('User not found');
+        }  
+        res.send('Expense successfully deleted!');
+    });
 });
 
 router.get('/getAll',(req, res) => {

@@ -98,6 +98,7 @@ class Update extends Component {
 				e.setState({
 					messageFromServer: response.data
 				});
+				console(response.data);
 			}
 		);
 	}
@@ -219,4 +220,5 @@ class Update extends Component {
 		}
 	}
 }
+Modal.setAppElement('#root');
 export default Update;

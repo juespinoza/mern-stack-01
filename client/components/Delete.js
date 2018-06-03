@@ -10,8 +10,7 @@ class Delete extends Component {
 	constructor(){
 		super();
 		this.state = { 
-			id: '',
-			messageFromServer: ''
+			id: ''
 		}
 		this.onClick = this.onClick.bind(this);
 		this.delete = this.delete.bind(this);
@@ -25,15 +24,13 @@ class Delete extends Component {
 
 	onClick(e){
 		this.delete(this);
+		this.props.callback(this.props.idx);
 	}
 
 	delete(e){
 		axios.get('/delete?id='+e.state.id)
 			.then((res) => {
-				e.setState({
-					messageFromServer: res.data
-				});
-				console.log('Deleted');
+				console.log(res);
 			}).catch((error) => {
 				console.log(error);
 			});
@@ -45,7 +42,8 @@ class Delete extends Component {
 				<Button 
 					bsStyle="danger" 
 					bsSize="small" 
-					onClick={ ()=>{ if(window.confirm("Are you sure?")) this.onClick(); } }>
+					onClick={ ()=>{ 
+						if(window.confirm("Are you sure to delete?")) this.onClick() } }>
 					<Link to={{pathname: '/', search: '' }} style={{ textDecoration: 'none' }}>
 						<span className="glyphicon glyphicon-remove"></span>
 					</Link>

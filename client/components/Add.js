@@ -76,6 +76,7 @@ class Add extends Component {
 			e.setState({
 				messageFromServer: response.data
 			});
+			console.log(response.data);
 		});
 	}
 	handleTextChange(e) {
@@ -200,4 +201,5 @@ class Add extends Component {
 		}
 	}
 }
+Modal.setAppElement('#root');
 export default Add;
