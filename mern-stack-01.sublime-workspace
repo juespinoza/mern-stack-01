@@ -285,28 +285,10 @@
 			}
 		},
 		{
-			"file": ".babelrc",
-			"settings":
-			{
-				"buffer_size": 123,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 459,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "client/components/App.js",
 			"settings":
 			{
-				"buffer_size": 2459,
+				"buffer_size": 2551,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -324,7 +306,7 @@
 			"file": "client/components/Update.js",
 			"settings":
 			{
-				"buffer_size": 5662,
+				"buffer_size": 5600,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -354,7 +336,6 @@
 			"settings":
 			{
 				"buffer_size": 2772,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -489,10 +470,10 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/mis-proyectos/react/mern-stack-01/client/index.js",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/.babelrc",
-		"/var/www/html/mis-proyectos/react/express-react/.babelrc",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/webpack.config.js",
+		"/var/www/html/mis-proyectos/react/mern-stack-01/client/index.js",
+		"/var/www/html/mis-proyectos/react/express-react/.babelrc",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/node_modules/eslint-plugin-jsx-a11y/.babelrc",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/node_modules/postcss-discard-overridden/.babelrc",
 		"/var/www/html/mis-proyectos/react/mern-stack-01/node_modules/jsx-ast-utils/.babelrc",
@@ -684,7 +665,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -741,6 +722,9 @@
 							"SL.14.region_keys":
 							[
 							],
+							"SL.15.region_keys":
+							[
+							],
 							"SL.40.region_keys":
 							[
 							],
@@ -753,85 +737,24 @@
 						"translation.y": 1016.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": ".babelrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								120,
-								120
-							]
-						],
-						"settings":
-						{
-							"markdonw_live_preview_last_run": 1527952500.63,
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"markdonw_live_preview_last_run": 1527948271.64,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "client/components/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2459,
+						"buffer_size": 2551,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								379,
-								379
+								2418,
+								2418
 							]
 						],
 						"settings":
@@ -840,6 +763,9 @@
 							[
 							],
 							"SL.16.region_keys":
+							[
+							],
+							"SL.18.region_keys":
 							[
 							],
 							"SL.21.region_keys":
@@ -855,14 +781,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 295.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "client/components/Add.js",
 					"semi_transient": false,
 					"settings":
@@ -904,24 +830,24 @@
 						"translation.y": 199.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "client/components/Update.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5662,
+						"buffer_size": 5600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1165,
-								1165
+								1103,
+								1103
 							]
 						],
 						"settings":
@@ -930,6 +856,9 @@
 							[
 							],
 							"SL.18.region_keys":
+							[
+							],
+							"SL.20.region_keys":
 							[
 							],
 							"SL.28.region_keys":
@@ -943,14 +872,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1222.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "client/components/Delete.js",
 					"semi_transient": false,
 					"settings":
@@ -974,6 +903,9 @@
 							"SL.19.region_keys":
 							[
 							],
+							"SL.21.region_keys":
+							[
+							],
 							"SL.30.region_keys":
 							[
 							],
@@ -985,14 +917,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 967.0,
+						"translation.y": 103.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1023,7 +955,7 @@
 						"translation.y": 1843.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1033,7 +965,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 7,
 					"file": "/home/developer/Documentos/Trabajo/MEXICO/twitter.com-LaNetaSiempre.txt",
 					"semi_transient": false,
 					"settings":
@@ -1073,11 +1005,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 8,
 					"file": "/var/www/html/mis-proyectos/laneta/twitter-unFollow/src/main/java/com/mkyong/core/utils/App.java",
 					"semi_transient": false,
 					"settings":
@@ -1109,11 +1041,11 @@
 						"translation.y": 2214.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "/home/developer/Documentos/Trabajo/MEXICO/usuarios.txt",
 					"semi_transient": false,
 					"settings":
@@ -1150,11 +1082,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 10,
 					"file": "README.md",
 					"semi_transient": false,
 					"settings":
@@ -1189,11 +1121,11 @@
 						"translation.y": 1248.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 11,
 					"file": "/home/developer/Dropbox/Cuentas/wallets.txt",
 					"semi_transient": false,
 					"settings":
@@ -1221,11 +1153,11 @@
 						"translation.y": 613.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 12,
 					"file": "/home/developer/Dropbox/TMP/MIGRACION/Peru/Datos-importantes.txt",
 					"semi_transient": false,
 					"settings":
@@ -1255,11 +1187,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 13,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1290,7 +1222,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]

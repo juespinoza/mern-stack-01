@@ -2,7 +2,7 @@
 > Proyecto desarrollado con fines didácticos usando MongoDB, Express, React y Node.
 
 ## Screenshots / Capturas de Pantalla
-
+![Expense Manager](https://lh3.googleusercontent.com/iCiJtp1m667Co3ZW7RVX9WnxTGBhrc2bXCv4ps_8ebiudlUo1xWkDIwUOcJiOquUJEIVP5N6oUdl=s600 "Expense Manager")
 
 ## Tech-framework used / Tecnologías Usadas
 - Node
@@ -32,7 +32,7 @@ npm run dev
 - [x] Inicializar repositorio
 - [x] Subir mis primeros cambios a GitHub
 - [x] Completar el back-end
-- [ ] Completar el front-end
+- [x] Completar el front-end
 
 ## Contribute / Para contribuir
 1. Has un [Fork](https://github.com/pulidovpe/mern-stack-01/fork)
@@ -44,7 +44,8 @@ npm run dev
 ## Credits / Créditos
 En este proyecto, me he guiado del tutorial publicado en esta página:
 [CloudBoost](https://blog.cloudboost.io/creating-your-first-mern-stack-application-b6604d12e4d3), propiedad del usuario @github/umairaslamm 
-También me guié de otros blogs de programación y respuestas en stackoverflow.
+También me guié de otros blogs de programación, stackoverflow, facebook y conté también con la guía del usuario @github/hugozap 
+Muchísimas gracias.
 
 ## License / Licencia
 Pulido V.P.E. – @github/pulidovpe – pulidovpe.dev@gmail.com

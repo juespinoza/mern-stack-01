@@ -34402,8 +34402,7 @@ var App = function (_Component) {
 		_this.state = {
 			selectedMonth: 'Jan',
 			selectedYear: 2016,
-			data: [],
-			indice: 0
+			data: []
 		};
 		_this.getData = _this.getData.bind(_this);
 		_this.getDelete = _this.getDelete.bind(_this);
@@ -34433,15 +34432,12 @@ var App = function (_Component) {
 	}, {
 		key: 'getDelete',
 		value: function getDelete(idx) {
-			console.log(idx);
-
 			var elementosActualizados = [].concat(_toConsumableArray(this.state.data));
 			elementosActualizados.splice(idx, 1);
 			//re creamos el estado para que vuelva a renderizar
 			this.setState(_extends({}, this.state, {
 				data: elementosActualizados
 			}));
-			this.getData(this, '2016');
 			console.log(elementosActualizados);
 		}
 	}, {
@@ -34452,12 +34448,6 @@ var App = function (_Component) {
 			return _react2.default.createElement(
 				'div',
 				{ className: 'App' },
-				_react2.default.createElement(
-					'h3',
-					null,
-					'Elemento eliminado: ',
-					this.state.indice
-				),
 				_react2.default.createElement(_Add2.default, { selectedMonth: this.state.selectedMonth, selectedYear: this.state.selectedYear }),
 				_react2.default.createElement(
 					'table',
@@ -34507,7 +34497,7 @@ var App = function (_Component) {
 						this.state.data.map(function (exp, idx) {
 							return _react2.default.createElement(
 								'tr',
-								{ key: idx },
+								{ key: exp._id },
 								_react2.default.createElement('td', { className: 'counterCell' }),
 								_react2.default.createElement(
 									'td',
@@ -34537,8 +34527,7 @@ var App = function (_Component) {
 								_react2.default.createElement(
 									'td',
 									{ className: 'button-col' },
-									_react2.default.createElement(_Delete2.default, { expense: exp, callback: _this2.getDelete.bind(_this2, idx) }),
-									idx
+									_react2.default.createElement(_Delete2.default, { expense: exp, callback: _this2.getDelete.bind(_this2, idx) })
 								)
 							);
 						})
@@ -35614,7 +35603,7 @@ var Add = function (_Component) {
 							null,
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'description' },
+								{ htmlFor: 'description' },
 								'Description:'
 							),
 							_react2.default.createElement('input', {
@@ -35625,7 +35614,7 @@ var Add = function (_Component) {
 								onChange: this.handleTextChange }),
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'amount' },
+								{ htmlFor: 'amount' },
 								'Amount:'
 							),
 							_react2.default.createElement('input', {
@@ -35636,7 +35625,7 @@ var Add = function (_Component) {
 								onChange: this.handleTextChange }),
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'month' },
+								{ htmlFor: 'month' },
 								'Month:'
 							),
 							_react2.default.createElement(
@@ -35709,7 +35698,7 @@ var Add = function (_Component) {
 							),
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'year' },
+								{ htmlFor: 'year' },
 								'Year:'
 							),
 							_react2.default.createElement(
@@ -48907,10 +48896,6 @@ var Update = function (_Component) {
 		key: 'closeModal',
 		value: function closeModal() {
 			this.setState({
-				description: '',
-				amount: '',
-				month: '',
-				year: '',
 				modalIsOpen: false,
 				messageFromServer: ''
 			});
@@ -49009,7 +48994,7 @@ var Update = function (_Component) {
 							null,
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'description' },
+								{ htmlFor: 'description' },
 								'Description:'
 							),
 							_react2.default.createElement('input', {
@@ -49020,7 +49005,7 @@ var Update = function (_Component) {
 								onChange: this.handleTextChange }),
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'amount' },
+								{ htmlFor: 'amount' },
 								'Amount:'
 							),
 							_react2.default.createElement('input', {
@@ -49031,7 +49016,7 @@ var Update = function (_Component) {
 								onChange: this.handleTextChange }),
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'month' },
+								{ htmlFor: 'month' },
 								'Month:'
 							),
 							_react2.default.createElement(
@@ -49104,7 +49089,7 @@ var Update = function (_Component) {
 							),
 							_react2.default.createElement(
 								'label',
-								{ 'for': 'year' },
+								{ htmlFor: 'year' },
 								'Year:'
 							),
 							_react2.default.createElement(

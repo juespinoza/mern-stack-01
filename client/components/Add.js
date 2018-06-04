@@ -109,7 +109,7 @@ class Add extends Component {
 							</Button>
 						</Link><br/>
 						<fieldset>
-							<label for="description">Description:</label>
+							<label htmlFor="description">Description:</label>
 							<input 
 								type="text" 
 								id="description" 
@@ -117,7 +117,7 @@ class Add extends Component {
 								value={this.state.description} 
 								onChange={this.handleTextChange}>
 							</input>
-							<label for="amount">Amount:</label>
+							<label htmlFor="amount">Amount:</label>
 							<input 
 								type="number" 
 								id="amount" 
@@ -125,7 +125,7 @@ class Add extends Component {
 								value={this.state.amount} 
 								onChange={this.handleTextChange}>
 							</input>
-							<label for="month">Month:</label>
+							<label htmlFor="month">Month:</label>
 							<select 
 								id="month" 
 								name="month" 
@@ -144,7 +144,7 @@ class Add extends Component {
 									<option value="Nov" id="Nov">November</option>
 									<option value="Dec" id="Dec">December</option>
 							</select>
-							<label for="year">Year:</label>
+							<label htmlFor="year">Year:</label>
 							<select 
 								id="year" 
 								name="year" 
