@@ -44,7 +44,8 @@ npm run dev
 ## Credits / Créditos
 En este proyecto, me he guiado del tutorial publicado en esta página:
 [CloudBoost](https://blog.cloudboost.io/creating-your-first-mern-stack-application-b6604d12e4d3), propiedad del usuario @github/umairaslamm 
-También me guié de otros blogs de programación, stackoverflow, facebook y conté también con la guía del usuario @github/hugozap 
+
+También me guié de otros blogs de programación, stackoverflow, grupos de facebook y conté también con la guía del usuario @github/hugozap 
 Muchísimas gracias.
 
 ## License / Licencia
