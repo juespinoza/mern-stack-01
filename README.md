@@ -22,7 +22,7 @@
 ```Shell
 git clone http://github.com/pulidovpe/mern-stack-01.git
 
-cd login-node
+cd mern-stack-01
 
 npm install
 
