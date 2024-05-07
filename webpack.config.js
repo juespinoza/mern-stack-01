@@ -12,13 +12,23 @@ module.exports = {
 			test: /.jsx?$/,
 			loader: 'babel-loader',
 			exclude: /node_modules/,
-			query: {
-				presets: ['react', 'env']
+			options: {
+				presets: ['@babel/preset-react', '@babel/preset-env']
+				// "presets": [
+				// 	"@babel/preset-env",
+				// 	"@babel/preset-react"
+				// 	],
+				// 	"plugins":
+				// 	["transform-class-properties", "transform-object-rest-spread",
+				// 	 "@babel/plugin-proposal-import-attributes-to-assertions"]
 			}
 		},
 		{
-			test: /\.css$/,
-			loader: "style-loader!css-loader"
+			test: /\.css$/i,
+        	use: ['style-loader', 'css-loader']
 		}]
+	},
+	resolve: {
+		fallback: { "querystring": require.resolve("querystring-es3") }
 	}
 }
